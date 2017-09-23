@@ -77,7 +77,7 @@ func main() {
 		for port := 0; port <= 65535; port++ {
 			// Connect TCP
 			if scanport("tcp", ip, port, timeout) == true {
-				fmt.Printf("tcp port %d open\n", port)
+				fmt.Printf("TCP port %d open\n", port)
 			}
 		}
 	} else {

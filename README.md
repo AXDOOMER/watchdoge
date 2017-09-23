@@ -1,19 +1,25 @@
 # watchdoge
-Port scanner for vulnerabilities
+
+An utility that can reveal open ports. It can be used to find computers on a network and which ports will respond to TCP requests. 
 
 ### Usage
 
+Scan an IP for open ports: `watchdoge [IP address] [timeout]`
+
+Scan a subnet of an IP: `watchdoge [IP address]/24 [port] [timeout]`
+
+#### Example
 ```
-> go build watchdog.go 
-> ./watchdog 192.168.1.1
-tcp port 21 open
-tcp port 22 open
-tcp port 53 open
-tcp port 80 open
-tcp port 2000 open
-tcp port 8291 open
-tcp port 8728 open
-tcp port 8729 open
+> go build watchdoge.go 
+> ./watchdoge 192.168.1.1
+TCP port 21 open
+TCP port 22 open
+TCP port 53 open
+TCP port 80 open
+TCP port 2000 open
+TCP port 8291 open
+TCP port 8728 open
+TCP port 8729 open
 done
 ```
 
