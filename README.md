@@ -1,5 +1,7 @@
 # watchdoge
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/AXDOOMER/watchdoge)](https://goreportcard.com/report/github.com/AXDOOMER/watchdoge)
+
 An utility that can reveal open ports. It can be used to find computers on a network and which ports will respond to TCP requests. 
 
 ### Usage
